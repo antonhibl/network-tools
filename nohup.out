@@ -1,0 +1,9 @@
+[*] Listening on 0.0.0.0:9998
+Traceback (most recent call last):
+  File "/Users/cthulhu/l4p1s/languages/Python/pentest-tools/tcp-server.py", line 51, in <module>
+    main()
+  File "/Users/cthulhu/l4p1s/languages/Python/pentest-tools/tcp-server.py", line 25, in main
+    client, address = server.accept()
+  File "/opt/homebrew/Cellar/python@3.9/3.9.10/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 293, in accept
+    fd, addr = self._accept()
+KeyboardInterrupt

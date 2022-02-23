@@ -8,7 +8,7 @@ target_port = 80
 client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 # send data
-client.sendto(b"GET / HTTP/1.1\r\nHost: feanor.xyz\r\n\r\n",(target_host,target_port))
+client.sendto(b"GET / HTTP/1.1\r\nHost: feanor.xyz\r\n\r\n", (target_host, target_port))
 
 # recieve data on localhost
 data, addr = client.recvfrom(4096)
